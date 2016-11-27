@@ -15,7 +15,7 @@ A tiny winy PDF merging tool for all and sundry.
 1. Output: After the tool finished the job you will find a file named `XX_merge.pdf` in the folder. If you ran the script again the file will be overwritten. So do not name anything important `XX_merge.pdf` and place it in folder of the script. Thank you.
 
 ## Known Problems
-If the PDF starts with roman numbers I-IV the script won't work properly.
+If the page numbering of the PDF starts with roman numbers I-IV the script won't work properly.
 
 ## Windows Executable
 There will be a Windows .exe in the `Download` folder which runs the script without the need of Python 3.5. It was build on a 64 bit Windows machine.
