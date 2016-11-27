@@ -14,12 +14,6 @@ A tiny winy PDF merging tool for all and sundry.
     1. If you leave the brackets out (`02_bachelorthesis.pdf`) the whole document will be merged.
 1. Output: After the tool finished the job you will find a file named `XX_merge.pdf` in the folder. If you ran the script again the file will be overwritten. So do not name anything important `XX_merge.pdf` and place it in folder of the script. Thank you.
 
-## Known Problems
-If the page numbering of the PDF starts with roman numbers I-IV the script won't work properly.
-
-## Windows Executable
-There will be a Windows .exe in the `Download` folder which runs the script without the need of Python 3.5. It was build on a 64 bit Windows machine.
-
 ## Example
 If the script runs in a folder with the three files `01_document1[1-2;3-4].pdf`, `02_document2.pdf` and `03_document3[2-3].pdf` the output file `XX_merge.pdf` will contain the following:
 
@@ -27,3 +21,9 @@ If the script runs in a folder with the three files `01_document1[1-2;3-4].pdf`,
   2. Pages 3 to 4 from `01_document1[1-2;3-4].pdf`
   3. All pages from `02_document2.pdf`
   4. Pages 2 to 3 from `03_document3[2-3].pdf`
+
+## Known Problems
+If the page numbering of the PDF starts with roman numbers I-IV the script won't work properly.
+
+## Windows Executable
+There will be a Windows .exe in the `Download` folder which runs the script without the need of Python 3.5. It was build on a 64 bit Windows machine.
