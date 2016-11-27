@@ -23,7 +23,8 @@ If the script runs in a folder with the three files `01_document1[1-2;3-4].pdf`,
   4. Pages 2 to 3 from `03_document3[2-3].pdf`
 
 ## Known Problems
-If the page numbering of the PDF starts with roman numbers I-IV the script won't work properly.
+* If the page numbering of the PDF starts with roman numbers I-IV the script won't work properly.
+* If there are more PDF files that do not match the file name pattern the script will crash.
 
 ## Executables
 * There a Windows .exe in the `Download` folder which runs the script without the need of Python 3.5. It was build on a 64 bit Windows machine.
