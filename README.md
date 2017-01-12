@@ -2,7 +2,11 @@
 A tiny winy PDF merging tool for all and sundry.
 
 ## Idea
-My girlfriend needed a simple PDF merging tool. Unlike macOS Windows does not offer this posibility. So I created PYDFMerger. The idea is to create an executable from this little Python script with e. g. [PyInstaller](http://www.pyinstaller.org/) that can run in the folder with the PDF files.
+My girlfriend needed a simple PDF merging tool. Unlike macOS Windows does not offer this posibility. So I created PYDFMerger. The idea is to create an executable (or use the one in the [Download folder](https://github.com/michael-123/PYDFMerger/tree/master/Download)) from this little Python script with e. g. [PyInstaller](http://www.pyinstaller.org/) that can run in the folder with the PDF files.
+
+Like so.
+
+![Demo of PYDFMerger](https://raw.githubusercontent.com/michael-123/PYDFMerger/master/Demo/demo.gif)
 
 ## How To
 1. Run the executable or `pydfmerger.py` in the folder the PDFs are located that you want to merge.
