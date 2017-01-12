@@ -1,8 +1,11 @@
 # PYDFMerger
 A tiny winy PDF merging tool for all and sundry.
 
+## Idea
+My girlfriend needed a simple PDF merging tool. Unlike macOS Windows does not offer this posibility. So I created PYDFMerger. The idea is to create an executable from this little Python script with e. g. [PyInstaller](http://www.pyinstaller.org/) that can run in the folder with the PDF files.
+
 ## How To
-1. Run `pydfmerger.py` in the folder the PDFs are located that you want to merge.
+1. Run the executable or `pydfmerger.py` in the folder the PDFs are located that you want to merge.
 1. Naming conventions: The PDFs need a file name pattern like this:
   1. Starting with `01_`: Files need to start with a number and a underscore.
     1. The number is needed to sort the files. So `01_` will be merged before `02_`.
@@ -29,4 +32,3 @@ If the script runs in a folder with the three files `01_document1[1-2;3-4].pdf`,
 ## Executables
 * There a Windows .exe in the `Download` folder which runs the script without the need of Python 3.5. It was build on a 64 bit Windows machine.
 * There is also a Ubuntu/Linux executable build on a 64 bit Ubuntu machine.
-
