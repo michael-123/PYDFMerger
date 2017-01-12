@@ -34,5 +34,5 @@ If the script runs in a folder with the three files `01_document1[1-2;3-4].pdf`,
 * If there are PDF files that do not match the file name pattern the script will crash.
 
 ## Executables
-* There a Windows .exe in the `Download` folder which runs the script without the need of Python 3.5. It was build on a 64 bit Windows machine.
+* There is a Windows .exe in the `Download` folder which runs the script without the need of Python 3.5. It was build on a 64 bit Windows machine.
 * There is also a Ubuntu/Linux executable build on a 64 bit Ubuntu machine.
